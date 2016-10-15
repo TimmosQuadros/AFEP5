@@ -7,15 +7,15 @@ and open the template in the editor.
 <div class="row">
     <div class="col-sm-4" >
                     <h1>{{user_ctrl.user.first+" "+user_ctrl.user.last}}</h1>
-                    <h3>{{Gender+" "+user_ctrl.user.gender}}</h3>
-                    <h3>{{Firstname+" "+user_ctrl.user.first}}</h3>
-                    <h3>{{Lastname+" "+user_ctrl.user.last}}</h3>
-                    <h3>{{Street+" "+user_ctrl.user.street}}</h3>
-                    <h3>{{City+" "+user_ctrl.user.city}}</h3>
-                    <h3>{{Zip+" "+user_ctrl.user.zip}}</h3>
-                    <h3>{{Phone+" "+user_ctrl.user.phone}}</h3>
-                    <h3>{{Cell+" "+user_ctrl.user.cell}}</h3>
-                    <h3>{{Email+" "+user_ctrl.user.email}}</h3>
+                    <h3>Gender: {{user_ctrl.user.gender}}</h3>
+                    <h3>Firstname: {{user_ctrl.user.first}}</h3>
+                    <h3>Lastname: {{user_ctrl.user.last}}</h3>
+                    <h3>Street: {{user_ctrl.user.street}}</h3>
+                    <h3>City: {{user_ctrl.user.city}}</h3>
+                    <h3>Zip: {{user_ctrl.user.zip}}</h3>
+                    <h3>Phone: {{user_ctrl.user.phone}}</h3>
+                    <h3>Cell: {{user_ctrl.user.cell}}</h3>
+                    <h3>Email: {{user_ctrl.user.email}}</h3>
     </div>
     <div class="col-sm-3" >
         <img ng-src="{{ user_ctrl.user.picture.large}}" />
